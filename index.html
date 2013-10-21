@@ -5,10 +5,11 @@
 <p>To run the http://is.gd/shtikipedia example on localhost:</p>
 
 <ol>
-<li>Run <code>python -m SimpleHTTPServer;SimpleHTTPServer</code> (will serve this folder on port 8080)</li>
+<li>Clone <a href="https://github.com/thedod/faqbuster">https://github.com/thedod/faqbuster</a> and <code>cd</code> there.</li>
 <li>Drag this bookmarklet to the toolbar:
 <a href="javascript:{var style=document.createElement('link');style.rel='stylesheet';style.type='text/css';style.href='https://publishedmodfiles.s3.amazonaws.com/1099/usermod-45.css';document.getElementsByTagName('head')[0].appendChild(style);var js=document.createElement('script');js.setAttribute('type','text/javascript');js.setAttribute('src','http://thedod.github.io/reply2smartid/truthmap.js');document.getElementsByTagName('head')[0].appendChild(js);js=document.createElement('script');js.setAttribute('type','text/javascript');js.setAttribute('src','http://0.0.0.0:8000/faqbuster.js');document.getElementsByTagName('head')[0].appendChild(js);void(0);}">fqb</a>
 (Note that it loads the the external <a href="http://thedod.github.io/reply2smartid/truthmap.js">js</a> and
 <a href="https://publishedmodfiles.s3.amazonaws.com/1099/usermod-45.css";document.getElementsByTagName('head">css</a> files).</li>
+<li>Run <code>python -m SimpleHTTPServer;SimpleHTTPServer</code> (will serve current folder on port 8080)</li>
 <li>To test your code, go  <a href="http://smartid.gov.il/GeneralInformation/Pages/FAQ.aspx">here</a> and click on the bookmark.</li>
 </ol>
