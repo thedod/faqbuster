@@ -3,7 +3,7 @@ faqbuster
 
 Add annotations as iframe tooltips.
 
-To contribute *content* to [shtikipedia](http://is.gd/shtikipedia), please go [here](http://thedod.github.io/reply2smartid).
+**Note**: to contribute **content** to [shtikipedia](http://is.gd/shtikipedia), please go [here](https://github.com/thedod/reply2smartid/tree/gh-pages).
 
 This repository is for people who want to contribute CSS/JS to the *site independent* part of the project.
 
